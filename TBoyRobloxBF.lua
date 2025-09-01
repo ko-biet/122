@@ -1,7 +1,5 @@
--- discord.gg/tboyroblox
 
-
-shared.LoaderTitle = "Đăng Ký Kênh TBoy Roblox";
+shared.LoaderTitle = "free";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -105,7 +103,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: TBoy Roblox",
+    Text = "Free",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -313,7 +311,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))();
 local v15 = v14:CreateWindow({
-    Title = "TBoy Roblox Hub",
+    Title = "FRee hup",
     SubTitle = "Blox Fruit",
     TabWidth = 160,
     Theme = "Dark",
@@ -366,6 +364,9 @@ local v16 = {
     }),
     Misc = v15:AddTab({
         Title = "Khác"
+    })
+    TAki = v15:AddTab({
+        Title = "lên->2650"
     })
 };
 local v17 = v14.Options;
@@ -2848,8 +2849,6 @@ spawn(function()
         end
     end
 end);
-local v50 = v16.Main:AddToggle("tometa")
-    Title = "farm-> 2650"
 local v51 = v16.Main:AddToggle("ToggleCastleRaid", {
     Title = "Đấm Hải Tặc",
     Description = "",
