@@ -366,7 +366,7 @@ local v16 = {
         Title = "Khác"
     })
     TAki = v15:AddTab({
-        Title = "lên->2650"
+        Title = "lên2650"
     })
 };
 local v17 = v14.Options;
