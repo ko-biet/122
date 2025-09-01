@@ -350,13 +350,13 @@ local v16 = {
         Title = "Dịch Chuyển"
     }),
     Visual = v15:AddTab({
-        Title = "Giả"
+        Title = "Phong bạc"
     }),
     Fruit = v15:AddTab({
         Title = "Trái"
     }),
     Raid = v15:AddTab({
-        Title = "Tập Kích"
+        Title = "raid"
     }),
     Race = v15:AddTab({
         Title = "Tộc"
@@ -1026,7 +1026,7 @@ function CheckLevel()
             NameMon = "Serpent Hunter";
             CFrameQ = CFrame.new(- 16665.19140625, 104.59640502929688, 1579.6943359375);
             CFrameMon = CFrame.new(- 16621.4140625, 121.40631103515625, 1290.6881103515625);
-        elseif ((v197 == 2575) or (v197 <= 2599) or (SelectMonster == "Skull Slayer") or (v197 == 2600)) then
+        elseif ((v197 == 2575) or (v197 <= 2599) or (SelectMonster == "Skull Slayer")) then
             Ms = "Skull Slayer";
             NameQuest = "TikiQuest3";
             QuestLv = 2;
@@ -2801,6 +2801,7 @@ spawn(function()
         end
     end
 end);
+
 local v50 = v16.Main:AddToggle("ToggleMobAura", {
     Title = "Đấm Quái Gần",
     Description = "",
@@ -2847,6 +2848,8 @@ spawn(function()
         end
     end
 end);
+local v50 = v16.Main:AddToggle("tometa")
+    Title = "farm-> 2650"
 local v51 = v16.Main:AddToggle("ToggleCastleRaid", {
     Title = "Đấm Hải Tặc",
     Description = "",
@@ -3874,7 +3877,7 @@ if Sea3 then
             _G.AutoFindPrehistoric = false;
             if not v513 then
                 v14:Notify({
-                    Title = "TBoy Roblox",
+                    Title = "1",
                     Content = "Đảo Dung Nham Tìm Thấy",
                     Duration = 10
                 });
@@ -3968,7 +3971,7 @@ if Sea3 then
             _G.AutoFindMirage = false;
             if not v513 then
                 v14:Notify({
-                    Title = "TBoy Roblox",
+                    Title = "1",
                     Content = "Đảo Bí Ẩn Tìm Thấy",
                     Duration = 10
                 });
@@ -4062,7 +4065,7 @@ if Sea3 then
             _G.AutoFindFrozen = false;
             if not v513 then
                 v14:Notify({
-                    Title = "TBoy Roblox",
+                    Title = "1",
                     Content = "Đảo Leviathan Tìm Thấy",
                     Duration = 10
                 });
