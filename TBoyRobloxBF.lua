@@ -365,9 +365,6 @@ local v16 = {
     Misc = v15:AddTab({
         Title = "Khác"
     })
-    TAki = v15:AddTab({
-        Title = "lên2650"
-    })
 };
 local v17 = v14.Options;
 local v18 = game.PlaceId;
